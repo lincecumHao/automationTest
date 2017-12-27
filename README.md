@@ -1,4 +1,4 @@
-# automationTest
+# Automation Test
 
 ## Introduction
 
@@ -6,7 +6,7 @@ These code segment are my practice for automation testing about website.
 
 I would like to design the testing framework to slove the testing problems.
 
-Idea: [Selenium](http://www.seleniumhq.org/) with JAVA + [Grid](http://www.seleniumhq.org/projects/grid/) + [TestNG](http://testng.org/doc/) + data driven testing + [Extentreport](http://extentreports.com/) + log management + screenshot
+Tech stack: [Selenium](http://www.seleniumhq.org/) with JAVA + [Grid](http://www.seleniumhq.org/projects/grid/) + [TestNG](http://testng.org/doc/) + data driven testing + [Extentreport](http://extentreports.com/) + log management + screenshot
 
 ### TestNG.xml
 TestNG.xml is the configuration file. I use this file to set my report related information, browser type and test case.<br>
@@ -32,5 +32,5 @@ For example: <br>
 
 ### TestReport.png
 This picture is the testing result.<br>
-After the testing script has been executed, it will produce the testing report.<br>
+After run the testing script, it will produce the testing report.<br>
 This module is [Extentreport](http://extentreports.com/)
