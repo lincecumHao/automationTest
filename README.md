@@ -17,7 +17,7 @@ It include the grid setting, webdriver environment setting and extentReport sett
 
 ##mainTestCase.Java
 This file is the main test case.<br>
-It will implement and verify the login test case.<br><br>
+It will implement and verify the login test case.<br>
 
 loginTestCase: It use the LoginPage module to do login test<br>
 loginDataProviderCase: It use the data driven testing module to do exception test<br>
@@ -30,6 +30,6 @@ For example: <br>
 2.login/logout function<br><br>
 
 ##TestReport.png
-This file is the testing report.<br>
-It can present the testing result.<br>
+This picture is the testing result.<br>
+After run the testing script, it will produce the testing report.<br>
 This module is [Extentreport](http://extentreports.com/)
