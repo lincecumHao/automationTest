@@ -32,5 +32,5 @@ For example: <br>
 
 ### TestReport.png
 This picture is the testing result.<br>
-After run the testing script, it will produce the testing report.<br>
+After the testing script has been executed, it will produce the testing report.<br>
 This module is [Extentreport](http://extentreports.com/)
