@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="TestSuite" parallel="tests">
+<parameters>
+<parameter name="DocumentTitle" value="Report title"></parameter>
+<parameter name="ReportName" value="Report"></parameter>
+<parameter name="UserName" value="JRT"></parameter>
+<parameter name="ReportPath" value="C:\Users\10606303\Documents\temp\"></parameter>
+<parameter name="ReportPhname" value="ExampleReport"></parameter>
+<parameter name="Environment" value="Stage"></parameter>
+<parameter name="RemoteMode" value="false"></parameter>
+<parameter name="DDT" value="C:\Users\10606303\eclipse-workspace\ProjectTemplate\ExcelData.xlsx"></parameter>
+</parameters>
+
+<test name="Chrome Test" enabled="true">
+<parameters>
+<parameter name="Browser" value="chrome"></parameter>
+<parameter name="platform" value="Windows"></parameter>
+<parameter name="url" value="http://www.letskodeit.com" />
+<parameter name="version" value="61.0.3163.100" />
+<parameter name="applicationName" value="windows10_64bits_chrome"></parameter>
+</parameters>
+	<classes>		
+		<class name="main.mainTestCase"></class>
+		<class name="utility.CustomListener"></class>
+	</classes>
+</test>
+
+<test name="FireFox Test" enabled="false">
+<parameters>
+<parameter name="Browser" value="firefox"></parameter>
+<parameter name="platform" value="Windows"></parameter>
+<parameter name="url" value="http://www.letskodeit.com" />
+<parameter name="version" value="56.01" />
+<parameter name="applicationName" value="windows7_32bits_firefox"></parameter>
+</parameters>
+	<classes>
+		<class name="main.mainTestCase"></class>
+		<class name="utility.CustomListener"></class>
+	</classes>
+</test>
+</suite>
